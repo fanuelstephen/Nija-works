@@ -1,5 +1,5 @@
 import React from "react";
-import { HiMenuAlt3 } from "react-icons/hi";
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 function Header({ shownNav, handleClick }) {
   return (
@@ -8,7 +8,10 @@ function Header({ shownNav, handleClick }) {
         <div className="logo">
           <img src="/asset/nav_logo.png" alt="logo" />
           <div>
-            <HiMenuAlt3 className="icon" onClick={handleClick} />
+            <IoCloseCircleOutline
+              className="icon_header"
+              onClick={handleClick}
+            />
           </div>
         </div>
         <div className="header_list">

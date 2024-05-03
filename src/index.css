@@ -46,18 +46,19 @@ body {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
+    width: 80%;
   }
   .hero_heading--text {
     font-size: 3rem;
     line-height: 1.1;
   }
   .hero_heading--img {
-    display: flex; 
+    display: flex;
     gap: 1rem;
   }
   .hero_heading--img img {
-    width: 148px;
-    height: 68px;
+    height: 4rem;
+    width: 9rem;
   }
   .hero_description-text {
     font-size: 1rem;
@@ -69,7 +70,7 @@ body {
   }
   /* ==========END=======>Home section */
   .show {
-    transform: translateX(325px);
+    transform: translateX(400px);
   }
   .logo {
     display: flex;
@@ -77,6 +78,8 @@ body {
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
   .logo img {
     height: 1.85rem;
@@ -145,5 +148,32 @@ body {
     text-decoration: none;
     font-size: 19px;
     font-weight: bold;
+  }
+  .icon_header {
+    background-color: black;
+    color: #bfbfbf;
+    font-size: 30px;
+  }
+}
+@media (min-width: 667px) {
+  .show {
+    transform: translateX(800px);
+  }
+  .hero_heading--text {
+    font-size: 6.875rem;
+    line-height: 1.1;
+  }
+  .hero_heading--img img {
+    height: 6rem;
+    width: 15rem;
+  }
+  .hero_heading--tag {
+    margin-bottom: 1.25rem;
+    border-radius: 9999px;
+    border: 1px solid #0d0e10;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 34%;
   }
 }
