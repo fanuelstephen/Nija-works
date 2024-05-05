@@ -1,7 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Manrope, sans-serif;
+  background-color: #080808;
 }
-
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
 @media (min-width: 320px) {
   /* ====================>Home section */
   .hero_header {
@@ -19,6 +38,20 @@ body {
     padding-left: 1.25rem;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   }
+  .hero_section {
+    background-color: #fff;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
   .hero_header.show {
     transform: translateX(0);
   }
@@ -28,14 +61,7 @@ body {
   .hero_header img {
     width: 150px;
   }
-  .hero_content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 7rem;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-  }
+
   .hero_heading {
     display: grid;
   }
@@ -60,6 +86,9 @@ body {
     height: 4rem;
     width: 9rem;
   }
+  .hero_description {
+    margin-bottom: 3rem;
+  }
   .hero_description-text {
     font-size: 1rem;
     line-height: 2;
@@ -78,8 +107,6 @@ body {
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
   .logo img {
     height: 1.85rem;
@@ -154,6 +181,102 @@ body {
     color: #bfbfbf;
     font-size: 30px;
   }
+  /* ===>logos */
+  .client {
+    background-color: #080808;
+  }
+  .Client_content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .Client_content img {
+    width: 80%;
+  }
+  /* =//=>logos */
+  /* ==================================>ABOUT */
+  .about_container {
+    background-color: #0e0e0e;
+  }
+  .about-title h3 {
+    padding-bottom: 1.25rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin: 0;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 3rem 1.5rem;
+  }
+  .about-description p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsla(0, 0%, 100%, 0.7);
+  }
+  .About_descripton-brand {
+    color: #6e43fb;
+  }
+  /* ===============END================>ABOUT */
+
+  /* ==================================>OUR SERVICE  */
+  .service {
+    background-color: #0e0e0e;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .service-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+  .service-heading span {
+    border: 1px solid #aaa;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+  .service-heading h3 {
+    font-size: 1.875rem;
+    line-height: 1.625;
+    margin-bottom: 1.25rem;
+    margin-top: 3rem;
+  }
+  .card {
+    cursor: pointer;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color, border-color,
+      text-decoration-color, fill, stroke;
+  }
+  .card:hover {
+    background-color: #0d0e10;
+  }
+  .card img {
+    width: 200px;
+  }
+  .card h5 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+  }
+  .card p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #ffffffb3;
+  }
+  /* ==================END===============>OUR SERVICE  */
 }
 @media (min-width: 667px) {
   .show {
