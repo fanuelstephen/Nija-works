@@ -277,7 +277,68 @@ pre {
     color: #ffffffb3;
   }
   /* ==================END===============>OUR SERVICE  */
+
+  /* ================================>PORTFOLIO  */
+  .portfolio {
+    background-color: #efefef;
+    margin: 0 20px;
+    border-radius: 1rem;
+    color: #1e1e1e;
+  }
+  .containers {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .porfolio__container {
+    padding: 2rem 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .portfolio__tag {
+    border: 1px solid #7b7b7b;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    width: 44%;
+    margin-bottom: 0.625rem;
+  }
+  .portfolio__heading {
+    margin-bottom: 1.25rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+  }
+  .portfolio__card-photo img {
+    width: 240px;
+  }
+  .portfolio__card--title {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  .portfolio__card--desc {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #0c0d0fb3;
+  }
+  .portfolio__card--tag {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  .portfolio__card--tagline {
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border: 1px solid #0d0e10;
+    padding: 0.375rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  /* =================END=============>PORTFOLIO   */
 }
+
 @media (min-width: 667px) {
   .show {
     transform: translateX(800px);
