@@ -16,7 +16,7 @@ function Home({ shownNav, handleClick }) {
           <span className="hero_heading--text">Visualize</span>
           <div className="hero_heading--img">
             <img src="/asset/hero.png" alt="phot" />
-            <div className="hero_heading--text">your</div>
+            <div className="hero_heading--text">Your</div>
           </div>
           <span className="hero_heading--text">Big Idea</span>
         </div>
