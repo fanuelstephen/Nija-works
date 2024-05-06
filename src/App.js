@@ -6,6 +6,7 @@ import Client from "./pages/logo/Client";
 import About from "./pages/about/About";
 import Service from "./pages/ourService/Service";
 import Portfolio from "./pages/project/Portfolio";
+import Footer from "./pages/footer/Footer";
 
 function App() {
   const [shownNav, setShownNav] = useState(true);
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Service />
       <Portfolio />
+      <Footer />
     </div>
   );
 }
