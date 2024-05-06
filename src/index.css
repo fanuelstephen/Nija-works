@@ -73,7 +73,7 @@ pre {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 80%;
+    width: 88%;
   }
   .hero_heading--text {
     font-size: 3rem;
@@ -299,7 +299,7 @@ pre {
     border: 1px solid #7b7b7b;
     padding: 0.5rem 1rem;
     border-radius: 20px;
-    width: 22%;
+    width: 51%;
     margin-bottom: 0.625rem;
   }
   .portfolio__heading {
@@ -484,6 +484,7 @@ pre {
   }
   /* ===============END FOOTER===========FOOTER */
 }
+
 @media (min-width: 375px) {
   .portfolio__card-photo img {
     width: 289px;
@@ -491,6 +492,15 @@ pre {
   .footer__cta--arrow {
     font-size: 100px;
     color: #ffffffb3;
+  }
+  .portfolio__tag {
+    width: 43%;
+  }
+  .hero_heading--tag {
+    width: 73%;
+  }
+  .footer__cta--button {
+    font-size: 25px;
   }
 }
 
@@ -516,7 +526,7 @@ pre {
     width: 34%;
   }
   .portfolio__card-photo img {
-    width: 583px;
+    width: 587px;
   }
 
   .footer__cta--grid {
@@ -524,19 +534,26 @@ pre {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
+  .hero_heading--tag {
+    width: 41%;
+  }
+  .hero_section {
+    margin-right: 0px;
+  }
 }
+
 @media (min-width: 414px) {
   .hero_section {
     margin-right: 14px;
   }
   .portfolio__tag {
-    width: 38%;
+    width: 37%;
   }
   .portfolio__card-photo img {
     width: 333px;
   }
   .hero_heading--tag {
-    width: 69%;
+    width: 70%;
   }
   .footer__cta--button {
     text-align: left;
