@@ -108,12 +108,11 @@ function Portfolio() {
               <span className="portfolio__card--tagline">Web Development</span>
             </div>
           </div>
-
-          <div className="portfolio__cta">
-            <a href="/porfolio" className="portfolio__cta--button">
-              <span className="porfolio_tex">More Project</span>
-            </a>
-          </div>
+        </div>
+        <div className="portfolio__cta">
+          <a href="/porfolio" className="portfolio__cta--button">
+            <span className="porfolio_tex">More Project</span>
+          </a>
         </div>
       </div>
     </section>

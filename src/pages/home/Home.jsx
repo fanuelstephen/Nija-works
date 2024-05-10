@@ -1,5 +1,6 @@
 import React from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
+import Navbar from "./Navbar";
 
 function Home({ shownNav, handleClick }) {
   return (
@@ -7,12 +8,11 @@ function Home({ shownNav, handleClick }) {
       <div className={`hero_header ${shownNav ? "hide" : "show"}`}>
         <img src="/asset/hero_logo.png" alt="" />
         <HiMenuAlt3 className="icon" onClick={handleClick} />
+        <Navbar />
       </div>
       <div className="hero_content">
         <div className="hero_heading">
-          <span className="hero_heading--tag">
-            Whethere are here to hel you
-          </span>
+          <span className="hero_heading--tag">We Are Here To Help You</span>
           <span className="hero_heading--text">Visualize</span>
           <div className="hero_heading--img">
             <img src="/asset/hero.png" alt="phot" />
