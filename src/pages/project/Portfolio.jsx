@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <section className="portfolio">
+    <section name="portfolio" className="portfolio">
       <div className="porfolio__container">
         <div className="portfolio__tag">Our portfolio</div>
         <h3 className="portfolio__heading">Our Professional Project</h3>

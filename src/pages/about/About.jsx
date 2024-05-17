@@ -1,9 +1,10 @@
 import React from "react";
-
+import Client from "../logo/Client";
 function About() {
   return (
-    <section className="about_container">
-      <div className="about-content">
+    <section name="about" className="about_container">
+      <Client />
+      <di v className="about-content">
         <div className="about-title">
           <h3>About Us</h3>
         </div>
@@ -17,7 +18,7 @@ function About() {
             such as web or apps.
           </p>
         </div>
-      </div>
+      </di>
     </section>
   );
 }

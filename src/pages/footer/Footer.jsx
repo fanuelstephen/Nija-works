@@ -57,7 +57,7 @@ function Footer() {
             <div className="footer__cta--button">Collaborate With Us</div>
             {/* <div className="footer__cta--arrow">&rarr;</div> */}
             <div className="footer__cta--arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 89 24" class="footer__cta--icon"><path d="M2 10.5H.5v3H2v-3zm86.06 2.56a1.5 1.5 0 000-2.12l-9.545-9.547a1.5 1.5 0 10-2.122 2.122L84.88 12l-8.486 8.485a1.5 1.5 0 102.122 2.122l9.546-9.546zM2 13.5h85v-3H2v3z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 89 24" className="footer__cta--icon"><path d="M2 10.5H.5v3H2v-3zm86.06 2.56a1.5 1.5 0 000-2.12l-9.545-9.547a1.5 1.5 0 10-2.122 2.122L84.88 12l-8.486 8.485a1.5 1.5 0 102.122 2.122l9.546-9.546zM2 13.5h85v-3H2v3z"></path></svg>
             </div>
           </div>
         </div>

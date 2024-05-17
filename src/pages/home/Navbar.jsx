@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (
@@ -10,24 +12,32 @@ function Navbar() {
         <div className="navbar_list">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="home" smooth={true} duration={500}>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#about">About Us</a>
+              <Link to="about" smooth={true} duration={500}>
+                About Us
+              </Link>
             </li>
             <li>
-              <a href="#service">Our Services</a>
+              <Link to="service" smooth={true} duration={500}>
+                Our Services
+              </Link>
             </li>
             <li>
-              <a href="#project">Project</a>
+              <Link to="portfolio" smooth={true} duration={500}>
+                Project
+              </Link>
             </li>
             <li>
-              <a href="#product">Product</a>
+              <Link to="/product">Product</Link>
             </li>
           </ul>
         </div>
         <div className="navbar_contact">
-          <a href="#contact">Contact Us</a>
+          <NavLink to="/contact-page">Contact Us</NavLink>
         </div>
       </div>
     </div>
